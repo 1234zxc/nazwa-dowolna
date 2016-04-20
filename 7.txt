@@ -1,5 +1,5 @@
 asd rdgn jd6idkjid6ji6rkji6ryCompiler: Visual C++ Express Edition 2005
-
+//proszê nic nie piszaæ 
 Compilreretgertretged on Platform: Windows XP Pro SP2
 
 Target platform: none, just for learning and fun
