@@ -1,0 +1,3 @@
+ Additional project setting: Set project to be compiled as C. Click Project menu->your_project_name Properties->Configuration Properties->C/C++->Advanced->Compiled As: Compiled as C Code (/TC)
+
+Other info: non-CLR or unmanaged. Need to add Advapi32.lib (Advapi32.dll) to the project. Click the Project menu->Select the your_project_name Properties... sub menu->Expand the Configuration Properties folder on the left pane->Expand the Linker subfolder->Select the Input subfolder->Select the Additional Dependencies field on the right pane->Click the ... at the end of the field->Type in 'Advapi32.lib' in the empty pane->Click the OK button->Click the OK button second time to close the project Properties dialog.

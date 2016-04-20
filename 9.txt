@@ -1,0 +1,3 @@
+ To do: Deleting a Windows service C program example
+
+To show: The Windows service programming based on Win32 library
