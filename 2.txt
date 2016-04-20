@@ -1,0 +1,27 @@
+ int main(void)
+
+{
+
+SC_HANDLE schSCManager, schService;
+
+ 
+
+// The service name must be a valid name. This fictitious service is available in the running machine...
+
+// It is service name not the displayed name...change accordingly...
+
+LPCTSTR lpszServiceName = L"MyTelnetSrv";
+
+// LPCTSTR lpszServiceName = L"MySampleSrv";
+
+ 
+
+// Open a handle to the SC Manager database...
+
+schSCManager = OpenSCManager(
+
+NULL, // local machine
+
+NULL, // SERVICES_ACTIVE_DATABASE database is opened by default
+
+SC_MANAGER_ALL_ACCESS); // full access rights, not a good choice :o)
