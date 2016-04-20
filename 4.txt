@@ -1,0 +1,21 @@
+ if (!DeleteService(schService))
+
+printf("DeleteService() failed, error: %d.\n", GetLastError());
+
+else
+
+printf("DeleteService(), %S is deleted.\n", lpszServiceName);
+
+ 
+
+if (CloseServiceHandle(schService) == 0)
+
+printf("CloseServiceHandle() failed, error: %d.\n", GetLastError());
+
+else
+
+printf("CloseServiceHandle() looks OK.\n");
+
+return 0;
+
+}
