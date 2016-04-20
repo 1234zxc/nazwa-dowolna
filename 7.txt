@@ -5,5 +5,5 @@ Compilreretgertretged on Platform: Windows XP Pro SP2
 Target platform: none, just for learning and fun
 
 Header file: Standard and Windows
-gfgsdgfg
+gfhnrtgfhdrtfh
 Additional library: Windows Platform SDK
