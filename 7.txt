@@ -1,0 +1,9 @@
+ Compiler: Visual C++ Express Edition 2005
+
+Compiled on Platform: Windows XP Pro SP2
+
+Target platform: none, just for learning and fun
+
+Header file: Standard and Windows
+
+Additional library: Windows Platform SDK

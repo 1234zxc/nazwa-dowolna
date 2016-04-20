@@ -1,0 +1,13 @@
+ OpenSCManager() looks OK.
+
+OpenService() looks OK.
+
+DeleteService(), MyTelnetSrv is deleted.
+
+CloseServiceHandle() looks OK.
+
+Press any key to continue . . .
+
+ 
+
+Verify the deleted service. Click Start->Programs->Administrative Tools->Services->Try finding "MyOwnTelnetService" service. It should not be there.
