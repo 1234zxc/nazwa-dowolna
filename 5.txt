@@ -1,0 +1,13 @@
+ Output example:
+
+ 
+
+OpenSCManager() looks OK.
+
+OpenService() looks OK.
+
+DeleteService(), MySampleSrv is deleted.
+
+CloseServiceHandle() looks OK.
+
+Press any key to continue . . .
