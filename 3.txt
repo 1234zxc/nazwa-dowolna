@@ -1,0 +1,27 @@
+ if (NULL == schSCManager)
+
+printf("OpenSCManager() failed, error: %d.\n", GetLastError());
+
+else
+
+printf("OpenSCManager() looks OK.\n");
+
+ 
+
+schService = OpenService(
+
+schSCManager, // SCManager database
+
+lpszServiceName, // name of service
+
+DELETE); // only need DELETE access
+
+ 
+
+if (schService == NULL)
+
+printf("OpenService() failed, error: %d.\n", GetLastError());
+
+else
+
+printf("OpenService() looks OK.\n");
