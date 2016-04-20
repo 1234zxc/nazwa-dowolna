@@ -5,4 +5,5 @@
 #include <windows.h>
 
 #include <stdio.h>
-//czemu nie dzia≥asz?
+//czemu nie dzia≈Çasz?
+//dzialasz
