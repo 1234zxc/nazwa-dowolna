@@ -1,0 +1,7 @@
+ // For WinXp as a target
+
+#define _WIN32_WINNT 0x0501
+
+#include <windows.h>
+
+#include <stdio.h>
